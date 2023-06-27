@@ -13,7 +13,7 @@ conn_str_params = {pair.split('=')[0]: pair.split('=')[1] for pair in conn_str.s
 
 DATABASE_URI = 'postgresql+psycopg2://{dbuser}:{dbpass}@{dbhost}/{dbname}'.format(
     dbuser=conn_str_params['kzswjjcdtf'],
-    dbpass=conn_str_params['KE7TJ1C2H4VF0A75$'],
+    dbpass=conn_str_params['India@1234'],
     dbhost=conn_str_params['postgresqlapp-server'] +".postgres.database.azure.com",
     dbname=conn_str_params['postgresqlapp-database']
 )
